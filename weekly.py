@@ -2,7 +2,7 @@ print("-------------- Que 1(A) --------------")
 # Find the output
 a = [1,2,3]
 b = a
-c = a[:]                             # [2, 4, 6,8][2, 4, 6, 8][1, 2, 3, 5]
+c = a[:]                           
 b.append(4)
 c.append(5)
 for i in range (len(a)):
@@ -80,5 +80,6 @@ def g(x):
     return f(x) * 2
 
 print(g(3))
+
 
 
